@@ -20,8 +20,8 @@ jobs:
       with:
         toolchain: nightly
         components:
-        - clippy
-        - fmt
+          - clippy
+          - fmt
         override: true
     #- name: Build
       #run: cargo build --verbose
