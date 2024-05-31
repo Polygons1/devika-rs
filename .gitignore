@@ -161,3 +161,7 @@ cython_debug/
 
 notes.md
 data/
+
+# Added by cargo
+
+/target
