@@ -19,7 +19,9 @@ jobs:
     - uses: actions-rs/toolchain@v1
       with:
         toolchain: nightly
-        components: clippy
+        components:
+        - clippy
+        - fmt
         override: true
     #- name: Build
       #run: cargo build --verbose
